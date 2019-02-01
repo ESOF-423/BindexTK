@@ -1,4 +1,8 @@
-language: "python"
-python: "3.6"
-# install: pip install --user -r requirements.txt
-script: pytest tests/python
+matrix:
+  include:
+    - language: "python"
+      python: "3.6"
+      script: pytest src/tests
+
+    - language: node_js
+      node_js: node
