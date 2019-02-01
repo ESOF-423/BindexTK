@@ -90,6 +90,33 @@ You can still check-out medical equipment on your own! Be sure to let a voluntee
 
 ## Administrators
 
+### [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services)
+
+### [Edit Basic Member Information](#edit-basic-member-information)
+
+### [Edit Phone Numbers](#edit-phone-numbers)
+
+### [Edit Emergency Contact Information](#edit-emergency-contact-information)
+
+### [Edit Member Paid/Unpaid Status](#edit-member-paid/unpaid-status)
+
+### [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member)
+
+### [Record Services Information](#record-services-information)
+
+### Add Members
+
+### Add Volunteers
+
+### 
+
+
+
+
+---
+
+
+---
 ## FAQ
 
 ### Members Questions
