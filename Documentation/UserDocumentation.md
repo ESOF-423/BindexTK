@@ -21,6 +21,7 @@ Bindex.tk is a web application meant to make the task of managing senior communi
 
    Members will be able to view and edit their own information, sign up for and check into activities/meals.
 
+
 ## Quick Links
 
 * [Members](#members)
@@ -47,6 +48,16 @@ Bindex.tk is a web application meant to make the task of managing senior communi
     - [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member)
     - [Record Services Information](#record-services-information)
   - [Administrators](#administrators)
+    - [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services-1)
+    - [Edit Basic Member Information](#edit-basic-member-information-1)
+    - [Edit Phone Numbers](#edit-phone-numbers-1)
+    - [Edit Emergency Contact Information](#edit-emergency-contact-information-1)
+    - [Edit Member Paid/Unpaid Status](#edit-member-paidunpaid-status-1)
+    - [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member-1)
+    - [Record Services Information](#record-services-information-1)
+    - [Add Members](#add-members)
+    - [Add Volunteers](#add-volunteers)
+    - [](#)
   - [FAQ](#faq)
     - [Members Questions](#members-questions)
     - [Volunteers Questions](#volunteers-questions)
