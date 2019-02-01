@@ -30,35 +30,31 @@ All software comes to an end; whether code is developed into a final version or 
 
 ### Obtaining Source Code
 
-> All source code is hosted on Github @ <https://github.com/ESOF-423/Bindex>
+> All source code is hosted on Github @ <https://github.com/ESOF-423/BindexTK>
 
 Bindex is an open-source project written for a software engineering class at Montana State University by students.
 
 #### Latest Stable Versions
 
-The latest stable version of Bindex will be the code hosted on the [master branch](<https://github.com/ESOF-423/Bindex/tree/master>) on the github repository. All code that is client-ready will be pushed to the master branch.
+The latest stable version of Bindex will be the code hosted on the [master branch](<https://github.com/ESOF-423/BindexTK/tree/master>) on the github repository. All code that is client-ready will be pushed to the master branch.
 
 #### Development Versions
 
-Development Versions are done on the [dev branch](<https://github.com/ESOF-423/Bindex/tree/dev>) in the github repository. Versions of code that are currently being tested for their potential to be released are hosted here.
+Development Versions are done on the [dev branch](<https://github.com/ESOF-423/BindexTK/tree/dev>) in the github repository. Versions of code that are currently being tested for their potential to be released are hosted here.
 
 #### Directory Structure
-> [/Documentation](<https://github.com/ESOF-423/Bindex/tree/master/Documentation>)
+> [/Documentation](<https://github.com/ESOF-423/BindexTK/tree/master/Documentation>)
 
 Contains all Documentation files.
 
-> [/tests/python](<https://github.com/ESOF-423/Bindex/tree/master/tests/python>)
+> [/tests/python](<https://github.com/ESOF-423/BindexTK/tree/master/tests/python>)
 
 
  TO BE CONTINUED... DUN DUN DUN
 
 #### How to Build the Software
 
-To get a local instance of our app running on your machine:
-1. Make sure you have [Node](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/cli/install) installed on your machine. To check if you already have them, run `node -v` or `npm -v` to check the version you are running.
-2. In a terminal, run `git clone https://github.com/ESOF-423/Bindex.git`
-3. run `npm install`
-4. run `npm start`
+Follow the instructions below in Create your own Bindex
 
 #### How to Test the Software
 
@@ -74,6 +70,11 @@ makin a list, and checkin it twice... gonna find out who's buggy or nice
 
 ---
 ## Create your own Bindex
+To get a local instance of our app running on your machine:
+1. Make sure you have [Node](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/cli/install) installed on your machine. To check if you already have them, run `node -v` or `npm -v` to check the version you are running.
+2. In a terminal, run `git clone https://github.com/ESOF-423/BindexTK.git`
+3. run `npm install`
+4. run `npm start`
 
 
 
