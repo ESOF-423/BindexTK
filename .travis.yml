@@ -6,3 +6,8 @@ matrix:
 
     - language: node_js
       node_js: node
+      script: npm test --directory src/tests
+branches:
+  except:
+    - /documentation.*/
+    - /doc_.*/
