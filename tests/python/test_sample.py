@@ -3,8 +3,8 @@
 def plus_1(x):
 	return x + 1
 
-def test_wrong():
-	assert plus_1(4) == 5
+def test_one():
+	assert plus_1(1) == 2
 
-def test_correct():
-	assert plus_1(3) == 4
+def test_two():
+	assert plus_1(2) == 3

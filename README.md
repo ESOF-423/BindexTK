@@ -1,4 +1,4 @@
-# Bindex [![Build Status](https://travis-ci.com/ESOF-423/Bindex.svg?branch=master)](https://travis-ci.com/ESOF-423/Bindex)
+# Bindex [![Build Status](https://travis-ci.com/ESOF-423/BindexTK.svg?branch=master)](https://travis-ci.com/ESOF-423/BindexTK)
 
 ## A system for simplifying the day-to-day responsibilities of a rural senior center
 
