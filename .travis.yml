@@ -8,4 +8,5 @@ matrix:
       node_js: node
 branches:
   except:
-    - documentation
+    - /documentation.*/
+    - /doc_.*/
