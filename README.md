@@ -9,6 +9,6 @@
 
 ## Documentation
 
-[User Documentation](https://github.com/ESOF-423/Bindex/blob/master/Documentation/UserDocumentation.md)
+[User Documentation](https://github.com/ESOF-423/BindexTK/blob/master/Documentation/UserDocumentation.md)
 
-[Developer Documentation](https://github.com/ESOF-423/Bindex/blob/master/Documentation/DeveloperDocumentation.md)
+[Developer Documentation](https://github.com/ESOF-423/BindexTK/blob/master/Documentation/DeveloperDocumentation.md)
