@@ -4,7 +4,7 @@
 
 This is the documentation for all users of bindex.tk on how to use the website. Instructions include commonly performed user actions, as well as a Frequently Asked Question [FAQ](#faq) section
 
-# What is Bindex.tk?
+## What is Bindex.tk?
 
 Bindex.tk is a web application meant to make the task of managing senior community centers simple. We hope the final product will give your members and staff the ability to keep track of everything your center offers with an easy-to-use and effective toolset:
 * Administrator tools
@@ -31,7 +31,7 @@ Bindex.tk is a web application meant to make the task of managing senior communi
 
 - [User Documentation](#user-documentation)
   - [How to Use Bindex.tk](#how-to-use-bindextk)
-- [What is Bindex.tk?](#what-is-bindextk)
+  - [What is Bindex.tk?](#what-is-bindextk)
   - [Quick Links](#quick-links)
   - [Table of Contents](#table-of-contents)
   - [Members](#members)
