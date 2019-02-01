@@ -112,6 +112,12 @@ Something w/ Travis.. I heard he's a cool dude (or gal)
 
 UM
 
-## Adding to outstanding/Resolved Bug List
+## Adding to Outstanding/Resolved Bug List
 
-makin a list, and checkin it twice... gonna find out who's buggy or nice
+> Be sure to check previous listed versions for unresolved bugs, as the one you found may currently be an on-going and unresolved bug.
+
+You found a bug! Please add the bug to the [Bug List](<https://github.com/ESOF-423/BindexTK/tree/documentation/Documentation>) in the corresponding section to the software version, making sure not to duplicate listed bugs.
+
+> All fixed bugs should be reported as fixed, along with the actions taken to resolve the bug.
+
+After a bug has been fixed and the correct patch has been applied, remember to find and mark the listed bug as fixed in the [Bug List](<https://github.com/ESOF-423/BindexTK/tree/documentation/Documentation>). In order to learn from mistakes, make sure to provide a description of how the bug was resolved.
