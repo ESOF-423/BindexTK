@@ -48,25 +48,6 @@ class Dashboard extends React.Component {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={6} md={3}>
-            <Typography component="h2" variant="h1" gutterBottom>
-              Bindex
-            </Typography>
-            <Button variant="contained">
-              <a
-                href="https://github.com/ESOF-423/BindexTK/blob/master/Documentation/UserDocumentation.md"
-                target="blank"
-              >
-                User Documentation
-              </a>
-            </Button>
-            <Button variant="contained">
-              <a
-                href="https://github.com/ESOF-423/BindexTK/blob/master/Documentation/DeveloperDocumentation.md"
-                target="blank"
-              >
-                Developer Documentation
-              </a>
-            </Button>
           </GridItem>
           <GridItem xs={12} sm={6} md={3} />
           <GridItem xs={12} sm={6} md={3} />
