@@ -13,7 +13,7 @@ import CardAvatar from "../../components/Card/CardAvatar.jsx";
 import CardBody from "../../components/Card/CardBody.jsx";
 import CardFooter from "../../components/Card/CardFooter.jsx";
 
-function UserProfile(props) {
+function Events(props) {
   const { classes } = props;
   return (
     <div>
@@ -29,4 +29,4 @@ function UserProfile(props) {
   );
 }
 
-export default (UserProfile);
+export default (Events);

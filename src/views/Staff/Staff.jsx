@@ -12,7 +12,7 @@ import CardBody from "../../components/Card/CardBody.jsx";
 
 import iconsStyle from "../../assets/jss/material-dashboard-react/views/iconsStyle.jsx";
 
-function Icons(props) {
+function Staff(props) {
   const { classes } = props;
   return (
     <GridContainer>
@@ -23,8 +23,8 @@ function Icons(props) {
   );
 }
 
-Icons.propTypes = {
+Staff.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(iconsStyle)(Icons);
+export default withStyles(iconsStyle)(Staff);

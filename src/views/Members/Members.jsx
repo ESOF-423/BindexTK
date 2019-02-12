@@ -49,7 +49,7 @@ const style = {
     textDecoration: "none"
   }
 };
-function TypographyPage(props) {
+function Members(props) {
   return (
     <div> 
       
@@ -57,4 +57,4 @@ function TypographyPage(props) {
   );
 }
 
-export default withStyles(style)(TypographyPage);
+export default withStyles(style)(Members);

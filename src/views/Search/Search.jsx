@@ -14,7 +14,7 @@ import Card from "../../components/Card/Card.jsx";
 import CardHeader from "../../components/Card/CardHeader.jsx";
 import CardBody from "../../components/Card/CardBody.jsx";
 
-class Notifications extends React.Component {
+class Search extends React.Component {
   
   render() {
     return (
@@ -25,4 +25,4 @@ class Notifications extends React.Component {
   }
 }
 
-export default (Notifications);
+export default (Search);
