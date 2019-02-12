@@ -17,46 +17,51 @@ const dashboardRoutes = [
   {
     path: "/dashboard",
     sidebarName: "Dashboard",
-    navbarName: "Belgrade Senior Center",
+    // navbarName: "Belgrade Senior Center",
     icon: Dashboard,
     component: DashboardPage
   },
   {
     path: "/user",
     sidebarName: "User Profile",
-    navbarName: "Profile",
+    // navbarName: "Profile",
     icon: Person,
     component: UserProfile
   },
   {
     path: "/table",
     sidebarName: "Table List",
-    navbarName: "Table List",
+    // navbarName: "Table List",
     icon: "content_paste",
     component: TableList
   },
   {
     path: "/typography",
     sidebarName: "Typography",
-    navbarName: "Typography",
+    // navbarName: "Typography",
     icon: LibraryBooks,
     component: Typography
   },
   {
     path: "/icons",
     sidebarName: "Icons",
-    navbarName: "Icons",
+    // navbarName: "Icons",
     icon: BubbleChart,
     component: Icons
   },
   {
     path: "/notifications",
     sidebarName: "Notifications",
-    navbarName: "Notifications",
+    // navbarName: "Notifications",
     icon: Notifications,
     component: NotificationsPage
   },
-  { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
+  { 
+    redirect: true, 
+    path: "/", 
+    to: "/dashboard", 
+    // navbarName: "Redirect" 
+  }
 ];
 
 export default dashboardRoutes;

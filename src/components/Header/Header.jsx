@@ -20,7 +20,8 @@ function Header({ ...props }) {
     var name;
     props.routes.map((prop, key) => {
       if (prop.path === props.location.pathname) {
-        name = prop.navbarName;
+        // name = prop.navbarName;
+        name = "Belgrade Senior Center"
       }
       return null;
     });
