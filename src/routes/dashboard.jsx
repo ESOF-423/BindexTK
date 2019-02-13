@@ -1,12 +1,12 @@
 // @material-ui/icons
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
-// import ContentPaste from "@material-ui/icons/ContentPaste";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
-import Loop from "@material-ui/icons/Loop";
+//import Loop from "@material-ui/icons/Loop";
 import SearchOutlined from "@material-ui/icons/SearchOutlined";
 import CalendarToday from "@material-ui/icons/CalendarToday";
-//import Search from "@material-ui/icons/Search";
+import FilterList from "@material-ui/icons/FilterList";
+
 // core components/views
 import DashboardPage from "../views/Dashboard/Dashboard.jsx";
 import Events from "../views/Events/Events.jsx";
@@ -15,6 +15,7 @@ import Members from "../views/Members/Members.jsx";
 import Staff from "../views/Staff/Staff.jsx";
 import Search from "../views/Search/Search.jsx";
 import Forms from "../views/Forms/Forms.jsx";
+import Filter from "../views/Filter/Filter.jsx";
 
 const dashboardRoutes = [
   {
@@ -28,7 +29,7 @@ const dashboardRoutes = [
     path: "/events",
     sidebarName: "Events",
     // navbarName: "sign into events",
-    icon: Loop,
+    icon: CalendarToday,
     component: Events
   },
   {
@@ -58,6 +59,13 @@ const dashboardRoutes = [
     // navbarName: "Search",
     icon: SearchOutlined,
     component: Search
+  },
+  {
+    path: "/filter",
+    sidebarName: "Filter",
+    // navbarName: "Filter",
+    icon: FilterList,
+    component: Filter
   },
   {
     path: "/forms",

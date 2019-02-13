@@ -14,13 +14,13 @@ import Card from "../../components/Card/Card.jsx";
 import CardHeader from "../../components/Card/CardHeader.jsx";
 import CardBody from "../../components/Card/CardBody.jsx";
 
-class Search extends React.Component {
+class Filter extends React.Component {
   
   render() {
     return (
-      <p>This is the search page, where you'll be able to search members, staff, events, services, and medical equipment</p>
+      <p>This is the Filter page, where you'll be able to filter members, staff, events, services, and medical equipment</p>
     );
   }
 }
 
-export default (Search);
+export default (Filter);
