@@ -3,6 +3,7 @@ import Dashboard from "@material-ui/icons/Dashboard";
 
 // core components/views
 import DashboardPage from "../views/Dashboard/Dashboard.jsx";
+import LoginPage from "../views/LoginPage/LoginPage.jsx";
 
 
 const login = [
@@ -12,6 +13,13 @@ const login = [
     // navbarName: "Belgrade Senior Center",
     icon: Dashboard,
     component: DashboardPage
+  },
+  {
+    path: "/login",
+    sidebarName: "Login",
+    // navbarName: "Profile",
+    icon: Person,
+    component: LoginPage
   },  
   { 
     redirect: true, 

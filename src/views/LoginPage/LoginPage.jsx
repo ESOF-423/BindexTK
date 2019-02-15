@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; 
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -66,9 +67,11 @@ class LoginPage extends React.Component {
                     />
                   </CardBody>
                   <CardFooter>
-                    <Button simple color="primary" size="lg">
-                      Get started
-                    </Button>
+                    <Link to="dashboard">
+                      <Button simple color="primary" size="lg">
+                        Get started
+                      </Button>
+                    </Link>
                   </CardFooter>
                 </form>
               </Card>

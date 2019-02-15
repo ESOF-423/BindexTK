@@ -1,18 +1,22 @@
 // @material-ui/icons
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
-// import ContentPaste from "@material-ui/icons/ContentPaste";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
-import BubbleChart from "@material-ui/icons/BubbleChart";
-import Notifications from "@material-ui/icons/Notifications";
+//import Loop from "@material-ui/icons/Loop";
+import SearchOutlined from "@material-ui/icons/SearchOutlined";
+import CalendarToday from "@material-ui/icons/CalendarToday";
+import FilterList from "@material-ui/icons/FilterList";
+
 // core components/views
 import DashboardPage from "../views/Dashboard/Dashboard.jsx";
-import UserProfile from "../views/UserProfile/UserProfile.jsx";
 import LoginPage from "../views/LoginPage/LoginPage.jsx";
-import TableList from "../views/TableList/TableList.jsx";
-import Typography from "../views/Typography/Typography.jsx";
-import Icons from "../views/Icons/Icons.jsx";
-import NotificationsPage from "../views/Notifications/Notifications.jsx";
+import Events from "../views/Events/Events.jsx";
+import Services from "../views/Services/Services.jsx";
+import Members from "../views/Members/Members.jsx";
+import Staff from "../views/Staff/Staff.jsx";
+import Search from "../views/Search/Search.jsx";
+import Filter from "../views/Filter/Filter.jsx";
+import Forms from "../views/Forms/Forms.jsx";
 
 const dashboardRoutes = [
   {
@@ -30,32 +34,53 @@ const dashboardRoutes = [
     component: LoginPage
   },
   {
-    path: "/table",
-    sidebarName: "Table List",
+    path: "/events",
+    sidebarName: "Events",
     // navbarName: "Table List",
-    icon: "content_paste",
-    component: TableList
+    icon: CalendarToday,
+    component: Events
   },
   {
-    path: "/typography",
-    sidebarName: "Typography",
-    // navbarName: "Typography",
+    path: "/services",
+    sidebarName: "Services",
+    // navbarName: "Table List",
+    icon: CalendarToday,
+    component: Services
+  },
+  {
+    path: "/members",
+    sidebarName: "Members",
+    // navbarName: "Members",
+    icon: Person,
+    component: Members
+  },
+  {
+    path: "/staff",
+    sidebarName: "Staff",
+    // navbarName: "Staff",
+    icon: Person,
+    component: Staff
+  },
+  {
+    path: "/search",
+    sidebarName: "Search",
+    // navbarName: "Search",
+    icon: SearchOutlined,
+    component: Search
+  },
+  {
+    path: "/filter",
+    sidebarName: "Filter",
+    // navbarName: "Filter",
+    icon: FilterList,
+    component: Filter
+  },
+  {
+    path: "/forms",
+    sidebarName: "Forms",
+    // navbarName: "Forms",
     icon: LibraryBooks,
-    component: Typography
-  },
-  {
-    path: "/icons",
-    sidebarName: "Icons",
-    // navbarName: "Icons",
-    icon: BubbleChart,
-    component: Icons
-  },
-  {
-    path: "/notifications",
-    sidebarName: "Notifications",
-    // navbarName: "Notifications",
-    icon: Notifications,
-    component: NotificationsPage
+    component: Forms
   },
   { 
     redirect: true, 
