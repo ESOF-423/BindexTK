@@ -68,8 +68,8 @@ function Events(props) {
               tableData={[
                 [<h5>Yoga</h5>, 
                 "a Hindu spiritual and ascetic discipline, a part of which, including breath control, simple meditation, and the adoption of specific bodily postures, is widely practiced for health and relaxation.",
-                "2/21/2019", "5:00PM", <a href="">edit</a>],
-                [<h5>Dinner</h5>, "Delicious meals with friends and family.", "2/21/2019", "6:00PM", <a href="">edit</a>],
+                "2/21/2019", "5:00PM", "edit"],
+                [<h5>Dinner</h5>, "Delicious meals with friends and family.", "2/21/2019", "6:00PM", "edit"],
               ]}
             />
           </CardBody>
