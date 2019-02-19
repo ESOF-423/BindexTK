@@ -8,16 +8,16 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Header from "../../components/Header/Header.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
-import Sidebar from "../../components/Sidebar/Sidebar.jsx";
+import Header from "../../../../components/Header/Header.jsx";
+import Footer from "../../../../components/Footer/Footer.jsx";
+import Sidebar from "../../../../components/Sidebar/Sidebar.jsx";
+import Events from "./Events.jsx";
 
-import dashboardRoutes from "../../routes/dashboardRoute.jsx";
+import dashboardRoutes from "../dashboardRoute.jsx";
 
-import dashboardStyle from "../../assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx";
+import dashboardStyle from "../../../../assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx";
 
-import image from "../../assets/img/sidebar-4.jpg";
-import logo from "../../assets/img/favicon.png";
+import image from "../../../../assets/img/sidebar-4.jpg";
 
 const switchRoutes = (
   <Switch>
@@ -69,6 +69,14 @@ class App extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div className={classes.wrapper}>
+        <Sidebar
+          routes={dashboardRoutes}
+          image={image}
+          handleDrawerToggle={this.handleDrawerToggle}
+          open={this.state.mobileOpen}
+          color="blue"
+          {...rest}
+        />
         <div className={classes.mainPanel} ref="mainPanel">
           <Header
             routes={dashboardRoutes}
@@ -76,13 +84,16 @@ class App extends React.Component {
             {...rest}
           />
           {/* On the /maps route we want the map to be on full screen - this is not possible if the content and conatiner classes are present because they have some paddings which would make the map smaller */}
-          {this.getRoute() ? (
+          {/* {this.getRoute() ? (
             <div className={classes.content}>
               <div className={classes.container}>{switchRoutes}</div>
             </div>
           ) : (
             <div className={classes.map}>{switchRoutes}</div>
-          )}
+          )} */}
+          <div className={classes.content}>
+            <Events />
+          </div>
           {this.getRoute() ? <Footer /> : null}
         </div>
       </div>

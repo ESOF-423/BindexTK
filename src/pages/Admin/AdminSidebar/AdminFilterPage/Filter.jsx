@@ -1,13 +1,7 @@
-/* eslint-disable */
 import React from "react";
-
-// @material-ui/core
+// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-
-// core components
-import GridItem from "../../components/Grid/GridItem.jsx";
-import GridContainer from "../../components/Grid/GridContainer.jsx";
-
+import dashboardStyle from "../../../../assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx";
 
 class Filter extends React.Component {
   
@@ -18,4 +12,4 @@ class Filter extends React.Component {
   }
 }
 
-export default (Filter);
+export default withStyles(dashboardStyle)(Filter);
