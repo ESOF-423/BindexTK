@@ -12,7 +12,6 @@ import GridItem from "../../../components/Grid/GridItem.jsx";
 import Button from "../../../components/CustomButtons/Button.jsx";
 import Card from "../../../components/Card/Card.jsx";
 import CardBody from "../../../components/Card/CardBody.jsx";
-import CardHeader from "../../../components/Card/CardHeader.jsx";
 import CardFooter from "../../../components/Card/CardFooter.jsx";
 import CustomInput from "../../../components/CustomInput/CustomInput.jsx";
 
@@ -21,13 +20,6 @@ import loginPageStyle from "../../../assets/jss/material-dashboard-react/views/l
 import image from "../../../assets/img/bg.jpg";
 
 class LoginPage extends React.Component {
-  constructor(props) {
-    super(props);
-    // we use this to make the card to appear after the page has been rendered
-    this.state = {
-      cardAnimaton: "cardHidden"
-    };
-  }
   componentDidMount() {
     // we add a hidden class to the card and after 700 ms we delete it and the transition appears
     setTimeout(
@@ -58,15 +50,20 @@ class LoginPage extends React.Component {
         >
           <div className={classes.container}>
             <GridContainer justify="center">
-              <GridItem xs={10} sm={8} md={6}>
-                <Card className={classes[this.state.cardAnimaton]}>
+              <GridItem xs={12} sm={8} md={8}>
+                <div align="center">
+                  <h1>Welcome to the Belgrade Senior Center</h1>
+                  <h4>Login with you email and password</h4>
+                </div>
+              </GridItem>
+            </GridContainer>
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={8} md={6}>
+                <Card >
                   <form className={classes.form}>
-                    <CardHeader color="info" className={classes.cardHeader}>
-                      <h4>Login</h4>
-                    </CardHeader>
                     <CardBody>
                       <CustomInput
-                        labelText="Email..."
+                        labelText="Email"
                         id="email"
                         formControlProps={{
                           fullWidth: true
@@ -88,9 +85,7 @@ class LoginPage extends React.Component {
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
                       <Link to="/admin-dashboard">
-                        <Button color="info" size="lg">
-                          Get started
-                        </Button>
+                        <Button size="lg">Login</Button>
                       </Link>
                     </CardFooter>
                   </form>
