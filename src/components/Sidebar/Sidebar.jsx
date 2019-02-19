@@ -16,12 +16,14 @@ import HeaderLinks from "../../components/Header/HeaderLinks.jsx";
 
 import sidebarStyle from "../../assets/jss/material-dashboard-react/components/sidebarStyle.jsx";
 
+import logo from "../../assets/img/favicon.png";
+
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)
   function activeRoute(routeName) {
     return props.location.pathname.indexOf(routeName) > -1 ? true : false;
   }
-  const { classes, color, logo, image, logoText, routes } = props;
+  const { classes, color, image, routes } = props;
   var links = (
     <List className={classes.list}>
       {routes.map((prop, key) => {
@@ -69,10 +71,12 @@ const Sidebar = ({ ...props }) => {
   );
   var brand = (
     <div className={classes.logo}>
-      <div className={classes.logoImage}>
-        <img src={logo} alt="logo" className={classes.img} />
+      <div className={classes.logoLink}>
+        <div className={classes.logoImage}>
+          <img src={logo} alt="logo" className={classes.img} />
+        </div>
+        Bindex
       </div>
-      {logoText}
     </div>
   );
   return (
