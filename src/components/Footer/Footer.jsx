@@ -15,33 +15,38 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a href="#home" className={classes.block}>
-                Home
+              <a
+                href="https://github.com/ESOF-423/BindexTK/blob/master/Documentation/UserDocumentation.md"
+                className={classes.block}
+                target="blank"
+              >
+                User Documentation
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a href="#company" className={classes.block}>
-                Company
+              <a
+                href="https://github.com/ESOF-423/BindexTK/blob/master/Documentation/DeveloperDocumentation.md"
+                className={classes.block}
+                target="blank"
+              >
+                Developer Documentation
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a href="#portfolio" className={classes.block}>
-                Portfolio
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a href="#blog" className={classes.block}>
-                Blog
+              <a
+                href="mailto:bindexdevelopers@gmail.com?Subject=Bindex%20contact"
+                className={classes.block}
+                target="blank"
+              >
+                Contact Us
               </a>
             </ListItem>
           </List>
         </div>
         <p className={classes.right}>
           <span>
-            &copy; {1900 + new Date().getYear()}{" "}
-            <a href="https://www.creative-tim.com" className={classes.a}>
-              Creative Tim
-            </a>, made with love for a better web
+            &copy; {1900 + new Date().getYear()} Your Favorite Software
+            Engineers
           </span>
         </p>
       </div>

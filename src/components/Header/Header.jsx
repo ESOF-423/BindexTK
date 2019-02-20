@@ -11,19 +11,23 @@ import Hidden from "@material-ui/core/Hidden";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import HeaderLinks from "./HeaderLinks.jsx";
-import Button from "../../components/CustomButtons/Button.jsx";
 
 import headerStyle from "../../assets/jss/material-dashboard-react/components/headerStyle.jsx";
 
 function Header({ ...props }) {
   function makeBrand() {
     var name;
-    props.routes.map((prop, key) => {
-      if (prop.path === props.location.pathname) {
-        name = prop.navbarName;
-      }
-      return null;
-    });
+    if (props.brand !== "Belgrade Senior Center") {
+      props.routes.map((prop, key) => {
+        if (prop.path === props.location.pathname) {
+          name = prop.navbarName;
+        }
+        return null;
+      });
+    }
+    else {
+      name = "Belgrade Senior Center"
+    }
     return name;
   }
   const { classes, color } = props;
@@ -35,9 +39,9 @@ function Header({ ...props }) {
       <Toolbar className={classes.container}>
         <div className={classes.flex}>
           {/* Here we create navbar brand, based on route name */}
-          <Button color="transparent" href="#" className={classes.title}>
+          <div className={classes.title}>
             {makeBrand()}
-          </Button>
+          </div>
         </div>
         <Hidden smDown implementation="css">
           <HeaderLinks />
@@ -58,7 +62,14 @@ function Header({ ...props }) {
 
 Header.propTypes = {
   classes: PropTypes.object.isRequired,
-  color: PropTypes.oneOf(["primary", "info", "success", "warning", "danger"])
+  color: PropTypes.oneOf([
+    "primary",
+    "info",
+    "success",
+    "warning",
+    "danger",
+    "transparent"
+  ])
 };
 
 export default withStyles(headerStyle)(Header);

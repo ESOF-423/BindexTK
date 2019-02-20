@@ -37,11 +37,13 @@ const headerStyle = theme => ({
   title: {
     ...defaultFont,
     lineHeight: "30px",
-    fontSize: "18px",
+    fontSize: "22px",
+    fontWeight: "500",
     borderRadius: "3px",
     textTransform: "none",
     color: "inherit",
     margin: "0",
+    marginLeft: "15px",
     "&:hover,&:focus": {
       background: "transparent"
     }
@@ -71,6 +73,11 @@ const headerStyle = theme => ({
   },
   danger: {
     backgroundColor: dangerColor,
+    color: "#FFFFFF",
+    ...defaultBoxShadow
+  },
+  transparent: {
+    backgroundColor: 'rgba(52, 52, 52, 0.4)',
     color: "#FFFFFF",
     ...defaultBoxShadow
   }
