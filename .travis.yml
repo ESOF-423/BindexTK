@@ -1,5 +1,11 @@
 jobs:
   include:
+    - language: "python"
+      python: "3.6"
+
+    - language: node_js
+      node_js: node
+
     - stage: "Python tests"
       script: pytest src/tests
 
@@ -7,10 +13,10 @@ jobs:
       name: "shallow rendering pages and router"
       script: npm test --directory src/tests/index.test.js
 
-      # use the following to add other test suites for travis to run
-      #
-      # name: "name or brief description of the suite"
-      # script: npm test --directory path/to/suite
+    # use the following to add other test suites for travis to run
+    #
+    # name: "name or brief description of the suite"
+    # script: npm test --directory path/to/suite
 
 
 branches:
