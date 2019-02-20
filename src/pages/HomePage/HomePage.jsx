@@ -38,7 +38,7 @@ class LoginPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8}>
                 <h1 align="center">Welcome to the Belgrade Senior Center</h1>
-                <h3 align="center">Login as:</h3>
+                <h4 align="center">Login as:</h4>
                 <br />
               </GridItem>
             </GridContainer>

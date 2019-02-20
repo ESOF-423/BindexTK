@@ -20,8 +20,8 @@ function Events() {
         <GridItem xs={12} sm={12} md={4}>
           <Card>
             <CardHeader color="info">
-              <h4 className={"event_header"}>Search</h4>
-              <p>Search for an event by date and time</p>
+              <h4>Search</h4>
+              <p>Search for an event by name or date</p>
             </CardHeader>
             <form>
               <CardBody>
@@ -35,17 +35,18 @@ function Events() {
                   }}
                 />
                 <CustomInput
-                  id="time"
+                  id="name"
                   formControlProps={{
                     fullWidth: true
                   }}
                   inputProps={{
-                    type: "time"
+                    type: "text",
+                    placeholder:"Event Name"
                   }}
                 />
               </CardBody>
               <CardFooter>
-                <Button color="info" size="lg">
+                <Button size="lg">
                   Search
                 </Button>
               </CardFooter>
@@ -55,7 +56,7 @@ function Events() {
         <GridItem xs={12} sm={12} md={8}>
           <Card>
             <CardHeader color="info">
-              <h4 className={"event_header"}>Results</h4>
+              <h4>Results</h4>
             </CardHeader>
             <CardBody>
               <Table
@@ -64,7 +65,7 @@ function Events() {
                 tableData={[
                   [
                     <h5>Yoga</h5>,
-                    "a Hindu spiritual and ascetic discipline, a part of which, including breath control, simple meditation, and the adoption of specific bodily postures, is widely practiced for health and relaxation.",
+                    "A Hindu spiritual and ascetic discipline that is widely practiced for health and relaxation.",
                     "2/21/2019",
                     "5:00PM",
                     "edit"
@@ -84,7 +85,7 @@ function Events() {
         <GridItem xs={12} sm={12} md={12}>
           <Card>
             <CardHeader color="info">
-              <h4 className={"event_header"}>Add Event</h4>
+              <h4>Create Event</h4>
             </CardHeader>
             <CardBody>
               <CustomInput
@@ -127,7 +128,7 @@ function Events() {
               />
             </CardBody>
             <CardFooter>
-              <Button color="info" size="lg">
+              <Button size="lg">
                 Add Event
               </Button>
             </CardFooter>
