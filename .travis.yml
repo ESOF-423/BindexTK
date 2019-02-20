@@ -6,7 +6,7 @@ jobs:
     - stage: "Node tests"
     script: npm test --directory src/tests
 
-    branches:
-      except:
-        - /documentation.*/
-        - /doc_.*/
+    # branches:
+    #   except:
+    #     - /documentation.*/
+    #     - /doc_.*/
