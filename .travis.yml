@@ -1,12 +1,19 @@
 jobs:
   include:
     - stage: "Python tests"
-    script: pytest src/tests
+      script: pytest src/tests
 
     - stage: "Node tests"
-    script: npm test --directory src/tests
+      name: "shallow rendering pages and router"
+      script: npm test --directory src/tests/index.test.js
 
-    # branches:
-    #   except:
-    #     - /documentation.*/
-    #     - /doc_.*/
+      # use the following to add other test suites for travis to run
+      #
+      # name: "name or brief description of the suite"
+      # script: npm test --directory path/to/suite
+
+
+branches:
+  except:
+    - /documentation.*/
+    - /doc_.*/
