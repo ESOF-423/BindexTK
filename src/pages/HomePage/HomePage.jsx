@@ -45,14 +45,20 @@ class LoginPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={4} md={2}>
                 <Link to="/admin-login">
-                  <Button fullWidth={true} >Admin</Button>
+                  <Button fullWidth={true} size="lg"  color="info">
+                    Admin
+                  </Button>
                 </Link>
               </GridItem>
               <GridItem xs={12} sm={4} md={2}>
-                <Button fullWidth={true}>Volunteer</Button>
+                <Button fullWidth={true} size="lg"  color="info">
+                  Volunteer
+                </Button>
               </GridItem>
               <GridItem xs={12} sm={4} md={2}>
-                <Button fullWidth={true}>Event Sign In</Button>
+                <Button fullWidth={true} size="lg"  color="info">
+                  Event Sign In
+                </Button>
               </GridItem>
             </GridContainer>
           </div>
