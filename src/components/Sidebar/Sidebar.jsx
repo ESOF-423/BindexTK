@@ -1,7 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import Drawer from "@material-ui/core/Drawer";
@@ -71,12 +72,14 @@ const Sidebar = ({ ...props }) => {
   );
   var brand = (
     <div className={classes.logo}>
-      <div className={classes.logoLink}>
-        <div className={classes.logoImage}>
-          <img src={logo} alt="logo" className={classes.img} />
+      <Link to="/">
+        <div className={classes.logoLink}>
+          <div className={classes.logoImage}>
+            <img src={logo} alt="logo" className={classes.img} />
+          </div>
+          Bindex
         </div>
-        Bindex
-      </div>
+      </Link>
     </div>
   );
   return (
