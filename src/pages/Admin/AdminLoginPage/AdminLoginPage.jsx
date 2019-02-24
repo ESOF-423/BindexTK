@@ -85,7 +85,7 @@ class LoginPage extends React.Component {
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
                       <Link to="/admin-dashboard">
-                        <Button size="lg">Login</Button>
+                        <Button size="lg" color="info">Login</Button>
                       </Link>
                     </CardFooter>
                   </form>
