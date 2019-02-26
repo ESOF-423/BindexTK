@@ -5,12 +5,21 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
 // core components
+import classNames from "classnames";
 import footerStyle from "../../assets/jss/material-dashboard-react/components/footerStyle.jsx";
 
 function Footer({ ...props }) {
-  const { classes } = props;
+  const { classes, whiteFont } = props;
+  const footerClasses = classNames({
+    [classes.footer]: true,
+    [classes.footerWhiteFont]: whiteFont
+  });
+  // const aClasses = classNames({
+  //   [classes.a]: true,
+  //   [classes.footerWhiteFont]: whiteFont
+  // });
   return (
-    <footer className={classes.footer}>
+    <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
@@ -43,12 +52,10 @@ function Footer({ ...props }) {
             </ListItem>
           </List>
         </div>
-        <p className={classes.right}>
-          <span>
+        <div className={classes.right}>
             &copy; {1900 + new Date().getYear()} Your Favorite Software
             Engineers
-          </span>
-        </p>
+        </div>
       </div>
     </footer>
   );
