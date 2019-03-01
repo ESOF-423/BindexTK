@@ -48,6 +48,7 @@ Bindex.tk is a web application meant to make the task of managing senior communi
     - [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member)
     - [Record Services Information](#record-services-information)
   - [Administrators](#administrators)
+    - [Log into Bindex.tk](#log-into-bindextk)
     - [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services-1)
     - [Edit Basic Member Information](#edit-basic-member-information-1)
     - [Edit Phone Numbers](#edit-phone-numbers-1)
@@ -101,9 +102,29 @@ You can still check-out medical equipment on your own! Be sure to let a voluntee
 
 ## Administrators
 
+### Log into Bindex.tk
+
+* Open a new web browser session, and navigate to the Bindex.tk website.
+* Under the text that says "Log in as:" click the large button that says "Admin."
+* Type your credentials into the fields and click "Log in"
+* You will now be taken to what is known as the "Dashboard" as shown highlighted in the tabs list.
+
 ### [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services)
 
 ### [Edit Basic Member Information](#edit-basic-member-information)
+
+* [Log into Bindex.tk] TODO: add link that goes to log in instructions
+* Click on "Members" in the tabs list
+  * Located on the left of the screen on a computer
+  * Located in the menus on the top right corner as the three horizontal lines for the mobile site
+* Search for the member who's information you want to change
+  * Find the search form and fill out the First and Last name of your member then click the "Search" button.
+  * Wait for your results to show up in the "Search results" table.
+* Edit your member's information
+  * Locate your member in the "Search results" table and click the "edit" link located on the end of the row which holds your member's details
+  * Click the link and update the information in the new form that pops up
+  * Click submit TODO: not sure if this how it's actually going to be in the end
+
 
 ### [Edit Phone Numbers](#edit-phone-numbers)
 
@@ -116,6 +137,13 @@ You can still check-out medical equipment on your own! Be sure to let a voluntee
 ### [Record Services Information](#record-services-information)
 
 ### Add Members
+
+This guide is meant to help you add members (seniors who have membership at your facility) to your site on to Bindex.tk.
+
+* [Log onto Bindex.tk] TODO: add link to the 'log into bindex.tk' instructions for admins
+* Add Member via the Members Tab:
+  * On the left hand side of the screen, locate and click the tab that says "Members"
+  * TODO: the rest of this guide!
 
 ### Add Volunteers
 

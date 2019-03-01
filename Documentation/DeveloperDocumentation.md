@@ -25,7 +25,8 @@ Table of Contents
   - [Adding to Outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
   - [Database](#database)
   - [Design](#design)
-  - [](#)
+    - [Routing](#routing)
+    - [Views](#views)
 
 ## Reporting Issues
 
@@ -134,4 +135,14 @@ Still needs work. We are planning on using Firebase.
 For the design we are working with pre-built react code from one of the creative-tim repositories.
 https://github.com/creativetimofficial/material-dashboard-react
 
-## 
+### Routing
+
+The routing for our application is a bit different than the creative-tim source code, as we had to update it for our application's needs.
+
+We changed the routing so that there are two views of the dashboard, one for the members and one for the admin. We had to do this, because the creative-tim code only accommodates for one kind of user, and our application requires two.
+
+TODO: extra info on the routing
+
+### Views
+
+Each tab in the list 
