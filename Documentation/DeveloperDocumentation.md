@@ -8,21 +8,24 @@
 
 Table of Contents
 
-* [Developer Documentation](#developer-documentation)
-  * [Quick Links](#quick-links)
-  * [Reporting Issues](#reporting-issues)
-  * [Contacting Developers](#contacting-developers)
-  * [Contributing](#contributing)
-    * [Obtaining and Building Source Code](#obtaining-and-building-source-code)
-    * [Contributing to Live Development](#contributing-to-live-development)
-  * [Versions](#versions)
-    * [Latest Stable Versions](#latest-stable-versions)
-    * [Development Versions](#development-versions)
-    * [Continuing Development on End of Life (EOL) Versions](#continuing-development-on-end-of-life-eol-versions)
-  * [Directory Structure](#directory-structure)
-  * [How to Test the Software](#how-to-test-the-software)
-  * [How to Release the Software](#how-to-release-the-software)
-  * [Adding to outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
+- [Developer Documentation](#developer-documentation)
+  - [Quick Links](#quick-links)
+  - [Reporting Issues](#reporting-issues)
+  - [Contacting Developers](#contacting-developers)
+  - [Contributing](#contributing)
+    - [Obtaining and Building Source Code](#obtaining-and-building-source-code)
+    - [Contributing to Live Development](#contributing-to-live-development)
+  - [Versions](#versions)
+    - [Latest Stable Versions](#latest-stable-versions)
+    - [Development Versions](#development-versions)
+    - [Continuing Development on End of Life (EOL) Versions](#continuing-development-on-end-of-life-eol-versions)
+  - [Directory Structure](#directory-structure)
+  - [How to Test the Software](#how-to-test-the-software)
+  - [How to Release the Software](#how-to-release-the-software)
+  - [Adding to Outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
+  - [Database](#database)
+  - [Design](#design)
+  - [](#)
 
 ## Reporting Issues
 
@@ -121,3 +124,14 @@ You found a bug! Please add the bug to the [Bug List](<https://github.com/ESOF-4
 > All fixed bugs should be reported as fixed, along with the actions taken to resolve the bug.
 
 After a bug has been fixed and the correct patch has been applied, remember to find and mark the listed bug as fixed in the [Bug List](<https://github.com/ESOF-423/BindexTK/tree/documentation/Documentation>). In order to learn from mistakes, make sure to provide a description of how the bug was resolved.
+
+## Database
+
+Still needs work. We are planning on using Firebase.
+
+## Design
+
+For the design we are working with pre-built react code from one of the creative-tim repositories.
+https://github.com/creativetimofficial/material-dashboard-react
+
+## 
