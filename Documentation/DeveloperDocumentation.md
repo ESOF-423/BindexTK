@@ -26,7 +26,7 @@ Table of Contents
   - [Database](#database)
   - [Design](#design)
     - [Routing](#routing)
-    - [Views](#views)
+    - [Pages](#pages)
 
 ## Reporting Issues
 
@@ -139,10 +139,15 @@ https://github.com/creativetimofficial/material-dashboard-react
 
 The routing for our application is a bit different than the creative-tim source code, as we had to update it for our application's needs.
 
-We changed the routing so that there are two views of the dashboard, one for the members and one for the admin. We had to do this, because the creative-tim code only accommodates for one kind of user, and our application requires two.
+TODO: more info on the routing
 
-TODO: extra info on the routing
+### Pages
 
-### Views
+Our final design will consist of:
+   * A login page
+   * An Admin main page
+   * Admin pages located in the sidebar
+   * A Member main page
+   * Member pages located in the sidebar
 
-Each tab in the list 
+For each page in the side bar, the content was built by filling in a grid with the pre-built components from the creative-tim source code. For example: for any given form on the site, we start with a "Card" component to keep the design uniform, then fill that Card with smaller components, like "Custom Input." We can then begin filling each page up with multiple Grid Items, each containing a card which contains the components required for whatever functionality we need (ie the "Add Event" card in the Events page).

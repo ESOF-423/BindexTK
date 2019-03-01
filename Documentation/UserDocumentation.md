@@ -10,7 +10,7 @@ Bindex.tk is a web application meant to make the task of managing senior communi
 * Administrator tools
 
    With Administrator tools, you'll be able to manage members and volunteers and all of their information.
-   You'll also be able to use search tools to quickly access this information needed for printing forms, writing reports, and grant.
+   You'll also be able to use search tools to quickly access this information needed for printing forms, writing reports, and grants.
    In addition, you'll be able to create activities, services and meals that members can sign up for.
 
 * Volunteer tools
@@ -58,7 +58,7 @@ Bindex.tk is a web application meant to make the task of managing senior communi
     - [Record Services Information](#record-services-information-1)
     - [Add Members](#add-members)
     - [Add Volunteers](#add-volunteers)
-    - [](#)
+    - [Add an Event](#add-an-event)
   - [FAQ](#faq)
     - [Members Questions](#members-questions)
     - [Volunteers Questions](#volunteers-questions)
@@ -138,17 +138,21 @@ You can still check-out medical equipment on your own! Be sure to let a voluntee
 
 ### Add Members
 
-This guide is meant to help you add members (seniors who have membership at your facility) to your site on to Bindex.tk.
+This guide is meant to help you add members (seniors who have membership at your facility) to your bindex.tk site.
 
 * [Log onto Bindex.tk] TODO: add link to the 'log into bindex.tk' instructions for admins
-* Add Member via the Members Tab:
+* Add Member via the Members tab in the sidebar:
   * On the left hand side of the screen, locate and click the tab that says "Members"
   * TODO: the rest of this guide!
 
 ### Add Volunteers
 
-### 
+### Add an Event
 
+* Log into Bindex.tk
+* Click the 'Events" tab located in the sidebar to the left
+* Find the "Create Event" form on the page and fill out the information
+* Click the "Add Event" button to submit the information and create a new Event.
 
 
 
