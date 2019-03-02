@@ -15,6 +15,7 @@ Table of Contents
   * [Contributing](#contributing)
     * [Obtaining and Building Source Code](#obtaining-and-building-source-code)
     * [Contributing to Live Development](#contributing-to-live-development)
+  * [Class Diagram](#class-diagram)
   * [Versions](#versions)
     * [Latest Stable Versions](#latest-stable-versions)
     * [Development Versions](#development-versions)
@@ -22,7 +23,11 @@ Table of Contents
   * [Directory Structure](#directory-structure)
   * [How to Test the Software](#how-to-test-the-software)
   * [How to Release the Software](#how-to-release-the-software)
-  * [Adding to outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
+  * [Adding to Outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
+  * [Database](#database)
+  * [Design](#design)
+    * [Routing](#routing)
+    * [Pages](#pages)
 
 ## Reporting Issues
 
@@ -79,6 +84,15 @@ Thank you for your interest contributing to Bindex! Please observe the following
 
   8. Submit a pull request onto the `dev` branch of the [repository](https://github.com/ESOF-423/BindexTK)
 
+## Class Diagram
+<<<<<<< HEAD
+
+![Class Diagram](img/ESOF423.png "Class Diagram of Architecture")
+
+=======
+![Class Diagram](img/ESOF423.png "Class Diagram of Architecture")  
+  
+>>>>>>> 97a828a4b0606c525fdd6510009feddd1c929253
 ## Versions
 
 ### Latest Stable Versions
@@ -112,6 +126,38 @@ Something w/ Travis.. I heard he's a cool dude (or gal)
 
 UM
 
-## Adding to outstanding/Resolved Bug List
+## Adding to Outstanding/Resolved Bug List
 
-makin a list, and checkin it twice... gonna find out who's buggy or nice
+> Be sure to check previous listed versions for unresolved bugs, as the one you found may currently be an on-going and unresolved bug.
+
+You found a bug! Please add the bug to the [Bug List](<https://github.com/ESOF-423/BindexTK/tree/documentation/Documentation>) in the corresponding section to the software version, making sure not to duplicate listed bugs.
+
+> All fixed bugs should be reported as fixed, along with the actions taken to resolve the bug.
+
+After a bug has been fixed and the correct patch has been applied, remember to find and mark the listed bug as fixed in the [Bug List](<https://github.com/ESOF-423/BindexTK/tree/documentation/Documentation>). In order to learn from mistakes, make sure to provide a description of how the bug was resolved.
+
+## Database
+
+Still needs work. We are planning on using Firebase.
+
+## Design
+
+For the design we are working with pre-built react code from one of the creative-tim repositories.
+https://github.com/creativetimofficial/material-dashboard-react
+
+### Routing
+
+The routing for our application is a bit different than the creative-tim source code, as we had to update it for our application's needs.
+
+TODO: more info on the routing
+
+### Pages
+
+Our final design will consist of:
+   * A login page
+   * An Admin main page
+   * Admin pages located in the sidebar
+   * A Member main page
+   * Member pages located in the sidebar
+
+For each page in the side bar, the content was built by filling in a grid with the pre-built components from the creative-tim source code. For example: for any given form on the site, we start with a "Card" component to keep the design uniform, then fill that Card with smaller components, like "Custom Input." We can then begin filling each page up with multiple Grid Items, each containing a card which contains the components required for whatever functionality we need (ie the "Add Event" card in the Events page).
