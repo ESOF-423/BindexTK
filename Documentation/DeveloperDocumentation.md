@@ -83,6 +83,9 @@ Thank you for your interest contributing to Bindex! Please observe the following
 
   8. Submit a pull request onto the `dev` branch of the [repository](https://github.com/ESOF-423/BindexTK)
 
+## Class Diagram
+![Class Diagram](/img/ESOF423.png "Class Diagram of Architecture")  
+  
 ## Versions
 
 ### Latest Stable Versions
