@@ -8,25 +8,26 @@
 
 Table of Contents
 
-- [Developer Documentation](#developer-documentation)
-  - [Quick Links](#quick-links)
-  - [Reporting Issues](#reporting-issues)
-  - [Contacting Developers](#contacting-developers)
-  - [Contributing](#contributing)
-    - [Obtaining and Building Source Code](#obtaining-and-building-source-code)
-    - [Contributing to Live Development](#contributing-to-live-development)
-  - [Versions](#versions)
-    - [Latest Stable Versions](#latest-stable-versions)
-    - [Development Versions](#development-versions)
-    - [Continuing Development on End of Life (EOL) Versions](#continuing-development-on-end-of-life-eol-versions)
-  - [Directory Structure](#directory-structure)
-  - [How to Test the Software](#how-to-test-the-software)
-  - [How to Release the Software](#how-to-release-the-software)
-  - [Adding to Outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
-  - [Database](#database)
-  - [Design](#design)
-    - [Routing](#routing)
-    - [Pages](#pages)
+* [Developer Documentation](#developer-documentation)
+  * [Quick Links](#quick-links)
+  * [Reporting Issues](#reporting-issues)
+  * [Contacting Developers](#contacting-developers)
+  * [Contributing](#contributing)
+    * [Obtaining and Building Source Code](#obtaining-and-building-source-code)
+    * [Contributing to Live Development](#contributing-to-live-development)
+  * [Class Diagram](#class-diagram)
+  * [Versions](#versions)
+    * [Latest Stable Versions](#latest-stable-versions)
+    * [Development Versions](#development-versions)
+    * [Continuing Development on End of Life (EOL) Versions](#continuing-development-on-end-of-life-eol-versions)
+  * [Directory Structure](#directory-structure)
+  * [How to Test the Software](#how-to-test-the-software)
+  * [How to Release the Software](#how-to-release-the-software)
+  * [Adding to Outstanding/Resolved Bug List](#adding-to-outstandingresolved-bug-list)
+  * [Database](#database)
+  * [Design](#design)
+    * [Routing](#routing)
+    * [Pages](#pages)
 
 ## Reporting Issues
 
@@ -84,8 +85,9 @@ Thank you for your interest contributing to Bindex! Please observe the following
   8. Submit a pull request onto the `dev` branch of the [repository](https://github.com/ESOF-423/BindexTK)
 
 ## Class Diagram
-![Class Diagram](/img/ESOF423.png "Class Diagram of Architecture")  
-  
+
+![Class Diagram](img/ESOF423.png "Class Diagram of Architecture")
+
 ## Versions
 
 ### Latest Stable Versions
