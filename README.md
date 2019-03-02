@@ -6,7 +6,6 @@
 
 <!-- [uglier but more reliable link to project](http://Bindex-env.mnh3v2fiz9.us-west-2.elasticbeanstalk.com) -->
 
-
 ## Documentation
 
 [User Documentation](https://github.com/ESOF-423/BindexTK/blob/master/Documentation/UserDocumentation.md)

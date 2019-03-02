@@ -4,9 +4,10 @@
 
 This is the documentation for all users of bindex.tk on how to use the website. Instructions include commonly performed user actions, as well as a Frequently Asked Question [FAQ](#faq) section
 
-## What is Bindex.tk?
+## What is Bindex.tk
 
 Bindex.tk is a web application meant to make the task of managing senior community centers simple. We hope the final product will give your members and staff the ability to keep track of everything your center offers with an easy-to-use and effective toolset:
+
 * Administrator tools
 
    With Administrator tools, you'll be able to manage members and volunteers and all of their information.
@@ -21,7 +22,6 @@ Bindex.tk is a web application meant to make the task of managing senior communi
 
    Members will be able to view and edit their own information, sign up for and check into activities/meals.
 
-
 ## Quick Links
 
 * [Members](#members)
@@ -30,39 +30,39 @@ Bindex.tk is a web application meant to make the task of managing senior communi
 
 ## Table of Contents
 
-- [User Documentation](#user-documentation)
-  - [How to Use Bindex.tk](#how-to-use-bindextk)
-  - [What is Bindex.tk?](#what-is-bindextk)
-  - [Quick Links](#quick-links)
-  - [Table of Contents](#table-of-contents)
-  - [Members](#members)
-    - [How to Check-In to Activities](#how-to-check-in-to-activities)
-    - [Changing my Information](#changing-my-information)
-    - [Check-Out Medical Equipment](#check-out-medical-equipment)
-  - [Volunteers](#volunteers)
-    - [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services)
-    - [Edit Basic Member Information](#edit-basic-member-information)
-    - [Edit Phone Numbers](#edit-phone-numbers)
-    - [Edit Emergency Contact Information](#edit-emergency-contact-information)
-    - [Edit Member Paid/Unpaid Status](#edit-member-paidunpaid-status)
-    - [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member)
-    - [Record Services Information](#record-services-information)
-  - [Administrators](#administrators)
-    - [Log into Bindex.tk](#log-into-bindextk)
-    - [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services-1)
-    - [Edit Basic Member Information](#edit-basic-member-information-1)
-    - [Edit Phone Numbers](#edit-phone-numbers-1)
-    - [Edit Emergency Contact Information](#edit-emergency-contact-information-1)
-    - [Edit Member Paid/Unpaid Status](#edit-member-paidunpaid-status-1)
-    - [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member-1)
-    - [Record Services Information](#record-services-information-1)
-    - [Add Members](#add-members)
-    - [Add Volunteers](#add-volunteers)
-    - [Add an Event](#add-an-event)
-  - [FAQ](#faq)
-    - [Members Questions](#members-questions)
-    - [Volunteers Questions](#volunteers-questions)
-    - [Administrator Questions](#administrator-questions)
+* [User Documentation](#user-documentation)
+  * [How to Use Bindex.tk](#how-to-use-bindextk)
+  * [What is Bindex.tk](#what-is-bindextk)
+  * [Quick Links](#quick-links)
+  * [Table of Contents](#table-of-contents)
+  * [Members](#members)
+    * [How to Check-In to Activities](#how-to-check-in-to-activities)
+    * [Changing my Information](#changing-my-information)
+    * [Check-Out Medical Equipment](#check-out-medical-equipment)
+  * [Volunteers](#volunteers)
+    * [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services)
+    * [Edit Basic Member Information](#edit-basic-member-information)
+    * [Edit Phone Numbers](#edit-phone-numbers)
+    * [Edit Emergency Contact Information](#edit-emergency-contact-information)
+    * [Edit Member Paid/Unpaid Status](#edit-member-paidunpaid-status)
+    * [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member)
+    * [Record Services Information](#record-services-information)
+  * [Administrators](#administrators)
+    * [Log into Bindex.tk](#log-into-bindextk)
+    * [Check-In Members to Activities or Services](#check-in-members-to-activities-or-services-1)
+    * [Edit Basic Member Information](#edit-basic-member-information-1)
+    * [Edit Phone Numbers](#edit-phone-numbers-1)
+    * [Edit Emergency Contact Information](#edit-emergency-contact-information-1)
+    * [Edit Member Paid/Unpaid Status](#edit-member-paidunpaid-status-1)
+    * [Check Medical Equipment out to Member](#check-medical-equipment-out-to-member-1)
+    * [Record Services Information](#record-services-information-1)
+    * [Add Members](#add-members)
+    * [Add Volunteers](#add-volunteers)
+    * [Add an Event](#add-an-event)
+  * [FAQ](#faq)
+    * [Members Questions](#members-questions)
+    * [Volunteers Questions](#volunteers-questions)
+    * [Administrator Questions](#administrator-questions)
 
 ---
 
@@ -125,7 +125,6 @@ You can still check-out medical equipment on your own! Be sure to let a voluntee
   * Click the link and update the information in the new form that pops up
   * Click submit TODO: not sure if this how it's actually going to be in the end
 
-
 ### [Edit Phone Numbers](#edit-phone-numbers)
 
 ### [Edit Emergency Contact Information](#edit-emergency-contact-information)
@@ -154,12 +153,10 @@ This guide is meant to help you add members (seniors who have membership at your
 * Find the "Create Event" form on the page and fill out the information
 * Click the "Add Event" button to submit the information and create a new Event.
 
-
+---
 
 ---
 
-
----
 ## FAQ
 
 ### Members Questions

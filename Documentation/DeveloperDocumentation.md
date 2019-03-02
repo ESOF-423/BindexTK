@@ -85,14 +85,9 @@ Thank you for your interest contributing to Bindex! Please observe the following
   8. Submit a pull request onto the `dev` branch of the [repository](https://github.com/ESOF-423/BindexTK)
 
 ## Class Diagram
-<<<<<<< HEAD
 
 ![Class Diagram](img/ESOF423.png "Class Diagram of Architecture")
 
-=======
-![Class Diagram](img/ESOF423.png "Class Diagram of Architecture")  
-  
->>>>>>> 97a828a4b0606c525fdd6510009feddd1c929253
 ## Versions
 
 ### Latest Stable Versions
@@ -143,7 +138,7 @@ Still needs work. We are planning on using Firebase.
 ## Design
 
 For the design we are working with pre-built react code from one of the creative-tim repositories.
-https://github.com/creativetimofficial/material-dashboard-react
+<https://github.com/creativetimofficial/material-dashboard-react>
 
 ### Routing
 
@@ -154,10 +149,11 @@ TODO: more info on the routing
 ### Pages
 
 Our final design will consist of:
-   * A login page
-   * An Admin main page
-   * Admin pages located in the sidebar
-   * A Member main page
-   * Member pages located in the sidebar
+
+* A login page
+* An Admin main page
+* Admin pages located in the sidebar
+* A Member main page
+* Member pages located in the sidebar
 
 For each page in the side bar, the content was built by filling in a grid with the pre-built components from the creative-tim source code. For example: for any given form on the site, we start with a "Card" component to keep the design uniform, then fill that Card with smaller components, like "Custom Input." We can then begin filling each page up with multiple Grid Items, each containing a card which contains the components required for whatever functionality we need (ie the "Add Event" card in the Events page).
